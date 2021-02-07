@@ -6,3 +6,16 @@ Other issues with Sign-In link, search by ID, "ap-other-signin-issues-link"
 Create your Amazon account button, search by ID, "createAccountSubmit"
 *Conditions of use link, XPath="//a[@href = '/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=508088']"
 *Privacy Notice link, XPath="//a[@href = '/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=468496']"
+
+#-----HW3 Registration----------
+$$('i.a-icon-logo')
+$$('h1.a-spacing-small')
+$$('#ap_customer_name')
+$$('#ap_email')
+$$('#ap_password')
+$$("div[class *= 'auth-inlined-information-message']")
+$$('#ap_password_check')
+$$('#continue')
+$$("a[href *= 'ap_register_notification_condition_of_use']")
+$$("a[href *= 'ap_register_notification_privacy_notice']")
+$$("a[href *= 'signin']")
