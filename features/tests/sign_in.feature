@@ -6,3 +6,12 @@ Feature: Amazon Sign In Tests
     Given Open Amazon page
     When Click Sign In from popup
     Then Verify Sign In page opens
+
+
+  Scenario: Amazon users see sign in button
+    Given Open Amazon page
+    Then Verify sign in is clickable
+    When Wait for 5 sec
+    Then Verify sign in is clickable
+    Then Verify Sign In disappears
+

@@ -11,5 +11,7 @@ def open_Amazon(context):
 
 @then('Verify hamburger menu icon is visible')
 def verify_ham_menu_present(context):
-    context.driver.find_element(*HAM_MENU)
+    e = context.driver.find_element(*HAM_MENU)
+    context.driver.refresh()
+    context.driver.find_element(*HAM_MENU).click()
 
